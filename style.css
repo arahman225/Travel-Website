@@ -67,12 +67,55 @@
     border-radius: 12px;
     background-color: rgba(16, 57, 85, 0.815);
     background-blend-mode: overlay;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
 }
 
 .welcome-hero-text{
-    padding:97px 185px;
+    text-align: center;
+    color: whitesmoke;
 }
 
+.welcome-hero-text h1{
+    font-size: 4.1rem;
+    margin-bottom: 21px;
+}
+
+
+.welcome-hero-text p{
+font-size: 1.62rem;
+font-weight: 600;
+width: 676px;
+font-size: 16px;
+
+}
+
+
+
+.input-filled{
+    margin-top: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    backdrop-filter: blure(30px);
+
+}
+
+
+input,
+select{
+    width: 175px;
+    height: 50px;
+    padding: 0 1rem;
+    border-radius: 8px;
+    margin-right: 16px;
+    border: none;
+}
 
 /* welcome hero end */
 
@@ -82,6 +125,16 @@
 .fixed-width{
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.btn-primary{
+    padding: 12px 24px;
+    width: 175px;
+    height: 50px;
+    background-color: #FF5400;
+    border:none;
+    border-radius: 8px;
+    color: whitesmoke;
 }
 
 
