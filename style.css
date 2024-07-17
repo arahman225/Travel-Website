@@ -1,0 +1,88 @@
+/* .display-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+
+.content{
+    padding:15px;
+}
+
+
+.content-box{
+    text-align: center;
+    padding: 25px;
+}
+
+.dispaly-grid{
+    display: grid;
+    grid-template-columns: repeat(1, .33fr);
+    justify-content: center;
+} */
+
+
+/* navbar start */
+
+.display-flex{
+    display: flex;
+}
+
+.navbar{
+    justify-content: space-between;
+
+}
+
+.logo img{
+    width: 48px;
+    height: 56px;
+    margin-right: 15px;
+}
+
+.logo{
+    align-items: center;
+}
+
+.navbar > ul > li{list-style: none; margin-right: 30px;}
+.navbar ul a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.12rem;
+}
+
+.navbar ul .active{
+    color: #FF5400;
+    font-weight: bold;
+}
+
+/* navbar start */
+
+/* welcome hero start */
+
+.welcome-hero-content{
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    background-color: rgba(16, 57, 85, 0.815);
+    background-blend-mode: overlay;
+}
+
+.welcome-hero-text{
+    padding:97px 185px;
+}
+
+
+/* welcome hero end */
+
+
+/* shared styles start */
+
+.fixed-width{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* shared styles end */
