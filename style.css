@@ -69,26 +69,27 @@
     background-blend-mode: overlay;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 450px;
+    height: 550px;
+
+
 }
 
 .welcome-hero-text{
     text-align: center;
     color: whitesmoke;
+    margin: 0px 247px;
 }
 
 .welcome-hero-text h1{
-    font-size: 4.1rem;
+    font-size: 4.5vw;
     margin-bottom: 21px;
+    
 }
 
 
 .welcome-hero-text p{
-font-size: 1.62rem;
+font-size: 1.5vw;
 font-weight: 600;
-width: 676px;
-font-size: 16px;
 
 }
 
@@ -120,6 +121,42 @@ select{
 /* welcome hero end */
 
 
+/* popular style start */
+
+
+.col-tours{
+    flex: 50%;
+}
+
+.popular-tours-text h3{
+    font-size: 2.7rem;
+    margin-top: 1px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    word-spacing: 4px;
+}
+
+.popular-tours-text{
+    margin-right: 50px;
+}
+.popular-tours-text p{
+    font-size: 1.1rem;
+    margin-left: 15px;
+    word-spacing: 4px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.tours-img img{
+    width: 100%;
+}
+
+
+
+/* popular style end */
+
+
+
 /* shared styles start */
 
 .fixed-width{
@@ -137,5 +174,46 @@ select{
     color: whitesmoke;
 }
 
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.padding{
+    margin: 75px 0px;
+}
 
 /* shared styles end */
+
+
+/*     Responsive start    */
+
+@media screen and (max-width:577px) {
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-links{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .input-filled{
+        flex-direction: column;
+        gap:15px
+    }
+
+    input{
+        width: 70%;
+        height: auto;
+    }
+
+    select{
+        width: 70%;
+    }
+}
+
+
+/*     Responsive end    */
