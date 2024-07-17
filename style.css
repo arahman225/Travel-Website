@@ -88,7 +88,7 @@
 
 
 .welcome-hero-text p{
-font-size: 1.5vw;
+font-size: 17px;
 font-weight: 600;
 
 }
@@ -110,7 +110,7 @@ font-weight: 600;
 
 input,
 select{
-    width: 175px;
+    width: 195px;
     height: 50px;
     padding: 0 1rem;
     border-radius: 8px;
@@ -151,6 +151,9 @@ select{
     width: 100%;
 }
 
+.popular-tours-text button{
+    margin-bottom: 25px;
+}
 
 
 /* popular style end */
@@ -202,16 +205,20 @@ select{
 
     .input-filled{
         flex-direction: column;
-        gap:15px
+        gap:15px;
+        width:350px;
     }
 
     input{
-        width: 70%;
-        height: auto;
+        width: 90%;
     }
 
     select{
-        width: 70%;
+        width: 100%;
+    }
+
+    .popular-content{
+        flex-direction: column;
     }
 }
 
